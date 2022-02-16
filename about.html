@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <!--Homepage Design-->
+        <section class="about">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="bi bi-x-square-fill" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="facilities.html">FACILIIES</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="bi bi-list" onclick="showMenu()"></i>
+            </nav>
+            <br><br><br>
+            <h4>About Us</h4>
+        </section>
+        <!----About us content-->
+        <section class="about-us">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>We have the best Fire Equipments in Nigeria</h1>
+                    <p>
+                        Sulam (Nig) Enterprises do not believe in mouth, they believe in work from the history of the
+                        CEO of the company Mr. Kekereogun Sulaimon who have dedicated 35 years of his in life in
+                        Nigeria port Authority, Fire service station and has saved 500+ lives. He has dedicated
+                        his life in saving lives and properties from fire outbreak.
+                    </p>
+                    <a href="facilities.html" class="hero-btn red-btn">Explore Now</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/kindpng_3707557.png">
+                </div>
+            </div>
+        </section>
+        
+        <section class="footer">
+            <h4>About Us</h4>
+            <b>
+                <p>Sulam (Nig) Enterprises has started since 1991 an has gained its viability, It is a Company that deals
+                    <br>basically with the Sales, Repair, Maintainance and Installation of Fire Services Equipment and also deals in Public
+                    <br>Training of handling the Fire Services Equipments.
+                </p>
+            </b>
+            <div class="icons">
+                <a href="https://web.facebook.com/Sulam-Nig-Enterprise-111326344809442"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com/KekereogunS"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.instagram.com/sulamnigenterprise/"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/2347063400828"><i class="bi bi-whatsapp"></i></a>
+            </div>
+            <p>Made with <i class="bi bi-heart-o"></i> Love by Dammy Web Design</p>
+        </section>
+
+        
+        <!--Javascript For Toggle Menu-->     
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
